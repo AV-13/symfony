@@ -1,0 +1,30 @@
+{% extends 'base.html.twig' %}
+
+{% block title %}Bienvenue sur mon site ! {% endblock %}
+
+{% block body %}
+<style>
+    .example-wrapper { margin: 1em auto; max-width: 800px; width: 95%; font: 18px/1.5 sans-serif; }
+    .example-wrapper code { background: #F5F5F5; padding: 2px 6px; }
+</style>
+{% include "partial/_nav.html.twig" %}
+    <div class="container">
+    <div class="row">
+      <div class="col-md-12">
+        <img src="https://animotaku.fr/wp-content/uploads/2022/02/one-shots-17-21-22-26-Tatsuki-Fujimoto-date-sortie-france.jpeg" class="img-fluid" style="height:1200px; width:2400px;">
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-md-12">
+        <h1 style="margin:25px;">Tatsuki Fujimoto, mangaka à la violence sensible de « Fire Punch » et « Chainsaw Man »</h1>
+        <h2 style="margin:25px;"> Source: Le Monde par Pauline Croquet</h2>
+        <p style="margin:125px;">
+Il a commencé sa carrière à 17 ans, l’année du séisme et du tsunami de 2011. Depuis, le sentiment d’impuissance, les efforts parfois vains face à l’inéluctable traversent Tatsuki Fujimoto et ses récits. Les héros du mangaka ne sont toutefois pas dépourvus d’étincelles de vie ni de surprises et ses mangas sur la brèche amènent constamment le lecteur en territoire inconnu. Sa première nouvelle dessinée, Deux poules au fond du jardin, qui ouvre l’anthologie 17-21 publiée en France le mercredi 18 mai chez Kazé, porte déjà ce mantra. Esquissée juste avant une entrée à la fac d’arts de Yamagata retardée par la catastrophe, elle raconte comment deux rescapés de l’humanité se déguisent en poules pour échapper à des extraterrestres venus coloniser la Terre.
+
+L’histoire tape dans l’œil de la prestigieuse maison d’édition Shueisha. L’artiste est de la génération qui a lu One Piece et Naruto, incubés dans les pages du magazine Weekly Shonen Jump, vaisseau amiral de l’éditeur et fameux label de succès. Il est alors loin de se figurer que, sept ans plus tard, il rejoindra cette même écurie avec Chainsaw Man (2018), sa série sur un adolescent paria, chasseur de démon capable de se transformer en homme-tronçonneuse. Ni même qu’il en sera l’un des ambassadeurs, lui qui s’évertue à proposer des histoires hors norme et débarrassées de tabous dans le shonen, manga destiné aux adolescents.</p>
+      </div>
+    </div>
+  </div>
+
+{% include "partial/_footer.html.twig" %}
+{% endblock %}

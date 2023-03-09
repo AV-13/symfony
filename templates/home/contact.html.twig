@@ -1,0 +1,57 @@
+{% extends 'base.html.twig' %}
+
+{% block title %}Bienvenue sur mon site ! {% endblock %}
+
+{% block body %}
+<style>
+    .example-wrapper { margin: 1em auto; max-width: 800px; width: 95%; font: 18px/1.5 sans-serif; }
+    .example-wrapper code { background: #F5F5F5; padding: 2px 6px; }
+</style>
+{% include "partial/_nav.html.twig" %}
+<div class="container-fluid h-100">
+    <div class="row h-100">
+      <div class="col-md-3 card-wrapper">
+        <div class="card">
+          <div class="card-body">
+          <i class="fab fa-twitter"></i>
+            <h5 class="card-title">Twitter</h5>
+            <p class="card-text">Suivez-moi sur Twitter !</p>
+            <a href="#" class="btn btn-primary">Twitter</a>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-3 card-wrapper">
+        <div class="card">
+          <div class="card-body">
+            <i class="fab fa-linkedin-in"></i>
+            <h5 class="card-title">LinkedIn</h5>
+            <p class="card-text">Connectez-vous avec moi sur LinkedIn !</p>
+            <a href="#" class="btn btn-primary">LinkedIn</a>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-3 card-wrapper">
+        <div class="card">
+          <div class="card-body">
+            <i class="fas fa-phone-alt"></i>
+            <h5 class="card-title">Téléphone</h5>
+            <p class="card-text">Appelez-moi !</p>
+            <a href="#" class="btn btn-primary">Téléphone</a>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-3 card-wrapper">
+        <div class="card">
+          <div class="card-body">
+            <i class="fas fa-globe"></i>
+            <h5 class="card-title">Site web</h5>
+            <p class="card-text">Visitez mon site web !</p>
+            <a href="#" class="btn btn-primary">Site web</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+{% include "partial/_footer.html.twig" %}
+{% endblock %}
